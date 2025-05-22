@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1741592334976' stop='1741592353238'>
+    <name>Automatic enrollment module test script for enrollment</name>
+    <title>Automatic enrollment module test script for enrollment</title>
+    <test-cases>
+        <test-case start='1741592334976' status='passed' stop='1741592345068'>
+            <name>EN-AUT001:Verify Customize My Enrollment button redirects to Enroll Home page</name>
+            <title>EN-AUT001:Verify Customize My Enrollment button redirects to Enroll Home page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592345072' status='passed' stop='1741592349684'>
+            <name>EN-AUT002:Verify Accept Default Enrollment button redirects to Final Elections page</name>
+            <title>EN-AUT002:Verify Accept Default Enrollment button redirects to Final Elections page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592349689' status='passed' stop='1741592353238'>
+            <name>EN-AUT003:Verify Opt Out button redirects to Opt-Out Acknowledgement page</name>
+            <title>EN-AUT003:Verify Opt Out button redirects to Opt-Out Acknowledgement page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

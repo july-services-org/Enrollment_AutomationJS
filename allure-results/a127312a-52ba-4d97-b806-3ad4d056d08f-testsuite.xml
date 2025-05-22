@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1741592255801' stop='1741592277638'>
+    <name>Login module test script for enrollment</name>
+    <title>Login module test script for enrollment</title>
+    <test-cases>
+        <test-case start='1741592255801' status='passed' stop='1741592264989'>
+            <name>EN-LOG001:Verify Validation Error for Plan Password Field</name>
+            <title>EN-LOG001:Verify Validation Error for Plan Password Field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592264994' status='passed' stop='1741592266547'>
+            <name>EN-LOG002:Verify Please enter your Social Security Number page appears after giving valid Password</name>
+            <title>EN-LOG002:Verify Please enter your Social Security Number page appears after giving valid Password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592266552' status='passed' stop='1741592268350'>
+            <name>EN-LOG003:User cannot proceed with invalid SSN in Please enter your Social Security Number page</name>
+            <title>EN-LOG003:User cannot proceed with invalid SSN in Please enter your Social Security Number page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592268351' status='passed' stop='1741592271042'>
+            <name>EN-LOG004:Verify CONGRATULATIONS! page appears after giving valid SSN</name>
+            <title>EN-LOG004:Verify CONGRATULATIONS! page appears after giving valid SSN</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592271046' status='passed' stop='1741592274292'>
+            <name>EN-LOG005:Verify Register page appears after successful login</name>
+            <title>EN-LOG005:Verify Register page appears after successful login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592274294' status='passed' stop='1741592277638'>
+            <name>EN-LOG006:Verify Automatic Enrollment page appears with registered SSN</name>
+            <title>EN-LOG006:Verify Automatic Enrollment page appears with registered SSN</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

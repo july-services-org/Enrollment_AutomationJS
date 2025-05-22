@@ -1,0 +1,1 @@
+export const testUrl="http://bearypotter.julyservices.local:9030/";

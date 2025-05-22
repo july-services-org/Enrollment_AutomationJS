@@ -1,0 +1,111 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1741592453418' stop='1741592557482'>
+    <name>Starter Package module test script for enrollment</name>
+    <title>Starter Package module test script for enrollment</title>
+    <test-cases>
+        <test-case start='1741592453418' status='passed' stop='1741592474022'>
+            <name>QUI-EN001:Verify Fund Fact Sheet opens by clicking the Investment Name</name>
+            <title>QUI-EN001:Verify Fund Fact Sheet opens by clicking the Investment Name</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592474027' status='passed' stop='1741592479455'>
+            <name>QUI-EN002:Verify Change the Contribution type change the contribution type of the starter package</name>
+            <title>QUI-EN002:Verify Change the Contribution type change the contribution type of the starter package</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592479457' status='passed' stop='1741592485809'>
+            <name>QUI-EN003:Verify Change Automatic Increase button opens the Update Auto Increase popup</name>
+            <title>QUI-EN003:Verify Change Automatic Increase button opens the Update Auto Increase popup</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592485816' status='passed' stop='1741592492480'>
+            <name>QUI-EN004 and QUI-EN005:Verify validation error for incorrect Increase Rate</name>
+            <title>QUI-EN004 and QUI-EN005:Verify validation error for incorrect Increase Rate</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592492485' status='passed' stop='1741592497939'>
+            <name>QUI-EN006:Verify Customize Enrollment button takes to the Enrollment Home page</name>
+            <title>QUI-EN006:Verify Customize Enrollment button takes to the Enrollment Home page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592497942' status='passed' stop='1741592504914'>
+            <name>QUI-EN007:Verify Final Elections page appears after selecting any starter package</name>
+            <title>QUI-EN007:Verify Final Elections page appears after selecting any starter package</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592504919' status='passed' stop='1741592512244'>
+            <name>QUI-EN008:Verify Add Beneficiary button adds new Input boxes &amp; dropdowns to select value</name>
+            <title>QUI-EN008:Verify Add Beneficiary button adds new Input boxes &amp; dropdowns to select value</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592512248' status='passed' stop='1741592518954'>
+            <name>QUI-EN009:Verify validation error for blank Beneficiary &amp; not selecting Primary beneficiary</name>
+            <title>QUI-EN009:Verify validation error for blank Beneficiary &amp; not selecting Primary beneficiary</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592518958' status='passed' stop='1741592526214'>
+            <name>QUI-EN0010:Verify validation error for not meeting % limit for Primary &amp; Contingent type beneficiary</name>
+            <title>QUI-EN0010:Verify validation error for not meeting % limit for Primary &amp; Contingent type beneficiary</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592526217' status='passed' stop='1741592534706'>
+            <name>QUI-EN0011:Verify clicking the Download Paper Beneficiary Form link text downloads the form</name>
+            <title>QUI-EN0011:Verify clicking the Download Paper Beneficiary Form link text downloads the form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592534712' status='passed' stop='1741592542401'>
+            <name>QUI-EN0012:Verify mandatory field validation when Automatic Investment Rebalance selects as Yes</name>
+            <title>QUI-EN0012:Verify mandatory field validation when Automatic Investment Rebalance selects as Yes</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592542406' status='passed' stop='1741592548389'>
+            <name>QUI-EN0013:Verify Rollover Contribution Instructions popup window appears clicking on Rollover  Instructions button</name>
+            <title>QUI-EN0013:Verify Rollover Contribution Instructions popup window appears clicking on Rollover  Instructions button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592548396' status='passed' stop='1741592557482'>
+            <name>QUI-EN0014:Verify Review and Submit page appears with valid data from Final Elections page</name>
+            <title>QUI-EN0014:Verify Review and Submit page appears with valid data from Final Elections page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

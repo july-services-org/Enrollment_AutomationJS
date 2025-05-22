@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1741592409773' stop='1741592451075'>
+    <name>Beneficiaries module test script for enrollment</name>
+    <title>Beneficiaries module test script for enrollment</title>
+    <test-cases>
+        <test-case start='1741592409773' status='passed' stop='1741592420128'>
+            <name>MENU-BEN001:Verify Menu Icon opens the sub menu option</name>
+            <title>MENU-BEN001:Verify Menu Icon opens the sub menu option</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592420133' status='passed' stop='1741592424795'>
+            <name>MENU-BEN002:Verify Beneficiaries option opens the Beneficiaries page</name>
+            <title>MENU-BEN002:Verify Beneficiaries option opens the Beneficiaries page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592424800' status='passed' stop='1741592430937'>
+            <name>MENU-BEN003:Verify validation error for blank Beneficiary &amp; not selecting Primary beneficiary</name>
+            <title>MENU-BEN003:Verify validation error for blank Beneficiary &amp; not selecting Primary beneficiary</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592430942' status='passed' stop='1741592437660'>
+            <name>MENU-BEN004:Verify validation error for not meeting % limit for Primary &amp; Contingent type beneficiary</name>
+            <title>MENU-BEN004:Verify validation error for not meeting % limit for Primary &amp; Contingent type beneficiary</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592437663' status='passed' stop='1741592444540'>
+            <name>MENU-BEN005:Verify successfully Beneficiary Add for valid data</name>
+            <title>MENU-BEN005:Verify successfully Beneficiary Add for valid data</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592444543' status='passed' stop='1741592451075'>
+            <name>MENU-BEN006:Verify Add Beneficiary and Remove Beneficiary button</name>
+            <title>MENU-BEN006:Verify Add Beneficiary and Remove Beneficiary button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

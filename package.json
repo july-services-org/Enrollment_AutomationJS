@@ -1,0 +1,27 @@
+{
+  "name": "cypress-pom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "test:chrome:headless": "npx cypress run --browser=chrome",
+    "test:chrome:headed": "npx cypress run --browser=chrome --headed",
+    "test:chrome:specific:test":"npx cypress run --browser=chrome --headed --spec 'cypress/e2e/tests/Enrollment_050_EnrollHome.cy.js'",
+    "test:chrome:allure:pass:result:all": "npx cypress run --browser=chrome --headed --reporter mocha-allure-reporter && allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "test:allure:report:headless": "npx cypress run --browser=chrome --reporter mocha-allure-reporter",
+    "test:allure:report:headed": "npx cypress run --browser=chrome --headed --reporter mocha-allure-reporter",
+    "test:allure:result": "npx allure generate allure-results --clean -o allure-report && allure open allure-report"
+    
+  },
+  "keywords": [],
+  "author": "", 
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.0",
+    "allure-commandline": "^2.30.0",
+    "cypress": "^13.6.6",
+    "cypress-xpath": "^2.0.1",
+    "mocha-allure-reporter": "^1.4.0"
+  }
+}

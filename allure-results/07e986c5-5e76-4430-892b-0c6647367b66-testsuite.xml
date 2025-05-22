@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1741592280578' stop='1741592332828'>
+    <name>Register module test script for enrollment</name>
+    <title>Register module test script for enrollment</title>
+    <test-cases>
+        <test-case start='1741592280578' status='passed' stop='1741592303705'>
+            <name>EN-REG001:Verify validation error for Personal Information window</name>
+            <title>EN-REG001:Verify validation error for Personal Information window</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592303713' status='passed' stop='1741592310673'>
+            <name>EN-REG002:Verify Login Information window appears after completing Personal Information window</name>
+            <title>EN-REG002:Verify Login Information window appears after completing Personal Information window</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592310678' status='passed' stop='1741592316090'>
+            <name>EN-REG003:Verify validation error for Login Information window</name>
+            <title>EN-REG003:Verify validation error for Login Information window</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592316092' status='passed' stop='1741592323512'>
+            <name>EN-REG004:Verify Security Settings window appears after completing Login Information window</name>
+            <title>EN-REG004:Verify Security Settings window appears after completing Login Information window</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592323519' status='passed' stop='1741592332827'>
+            <name>EN-REG005:Verify validation error for Security Settings window</name>
+            <title>EN-REG005:Verify validation error for Security Settings window</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

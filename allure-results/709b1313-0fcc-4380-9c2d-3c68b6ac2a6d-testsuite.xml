@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1741592383906' stop='1741592407718'>
+    <name>EnrollHome module test script for enrollment</name>
+    <title>EnrollHome module test script for enrollment</title>
+    <test-cases>
+        <test-case start='1741592383906' status='passed' stop='1741592394664'>
+            <name>EN-HOM001:Verify Custom Enroll button redirects to Select Contribution Rate page</name>
+            <title>EN-HOM001:Verify Custom Enroll button redirects to Select Contribution Rate page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592394670' status='passed' stop='1741592402992'>
+            <name>EN-HOM002:Verify Quick Enroll button redirects to Select Starter Package page</name>
+            <title>EN-HOM002:Verify Quick Enroll button redirects to Select Starter Package page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592403000' status='passed' stop='1741592407718'>
+            <name>EN-HOM004:Verify Opt Out button redirects to Opt-Out Acknowledgement page</name>
+            <title>EN-HOM004:Verify Opt Out button redirects to Opt-Out Acknowledgement page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

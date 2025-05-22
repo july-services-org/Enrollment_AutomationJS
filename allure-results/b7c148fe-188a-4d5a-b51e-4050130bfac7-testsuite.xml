@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1741592355425' stop='1741592381546'>
+    <name>UpdateProfile module test script for enrollment</name>
+    <title>UpdateProfile module test script for enrollment</title>
+    <test-cases>
+        <test-case start='1741592355425' status='passed' stop='1741592366714'>
+            <name>UPDT-INFO001:Verify Your Profile link text takes to Update Personal Information page</name>
+            <title>UPDT-INFO001:Verify Your Profile link text takes to Update Personal Information page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592366722' status='passed' stop='1741592375170'>
+            <name>UPDT-INFO002:Verify validation error for Update Personal Information page</name>
+            <title>UPDT-INFO002:Verify validation error for Update Personal Information page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592375175' status='passed' stop='1741592381546'>
+            <name>UPDT-INFO003:Verify Update functionality for Update Personal Information page</name>
+            <title>UPDT-INFO003:Verify Update functionality for Update Personal Information page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

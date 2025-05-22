@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1741592559926' stop='1741592720561'>
+    <name>Review and Submit module test script for enrollment</name>
+    <title>Review and Submit module test script for enrollment</title>
+    <test-cases>
+        <test-case start='1741592559926' status='passed' stop='1741592579210'>
+            <name>QUI-EN015:Verify Change Election of Your Contribution Election section takes to the Select Contribution Rate page</name>
+            <title>QUI-EN015:Verify Change Election of Your Contribution Election section takes to the Select Contribution Rate page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592579223' status='passed' stop='1741592596051'>
+            <name>QUI-EN016:Verify Next button of Select Contribution Rate page takes back to Final Elections page</name>
+            <title>QUI-EN016:Verify Next button of Select Contribution Rate page takes back to Final Elections page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592596061' status='passed' stop='1741592608436'>
+            <name>QUI-EN017:Verify Change Election of Your Investment Election section takes to the Choose Your Investment Preference page</name>
+            <title>QUI-EN017:Verify Change Election of Your Investment Election section takes to the Choose Your Investment Preference page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592608441' status='passed' stop='1741592618820'>
+            <name>QUI-EN018:Verify Select button of any of the option takes to the particular Investment Election page</name>
+            <title>QUI-EN018:Verify Select button of any of the option takes to the particular Investment Election page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592618825' status='passed' stop='1741592632292'>
+            <name>QUI-EN019:Verify Next button of Investment Election page takes back to Final Elections page</name>
+            <title>QUI-EN019:Verify Next button of Investment Election page takes back to Final Elections page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592632297' status='passed' stop='1741592642260'>
+            <name>QUI-EN020:Verify Change Election of Automatic Investment Rebalance section takes to the Final Elections page</name>
+            <title>QUI-EN020:Verify Change Election of Automatic Investment Rebalance section takes to the Final Elections page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592642269' status='passed' stop='1741592656960'>
+            <name>QUI-EN021:Verify Change Election of Automatic Contribution Increase section takes to the Final Elections page</name>
+            <title>QUI-EN021:Verify Change Election of Automatic Contribution Increase section takes to the Final Elections page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592656966' status='passed' stop='1741592670710'>
+            <name>QUI-EN022 and QUI-EN023 :Verify Change Election of Beneficiary Designation section takes to the Final Elections page</name>
+            <title>QUI-EN022 and QUI-EN023 :Verify Change Election of Beneficiary Designation section takes to the Final Elections page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1741592670715' status='passed' stop='1741592720561'>
+            <name>QUI-EN024 :Verify that Enrollment survey is completed and Reset Enrollment status</name>
+            <title>QUI-EN024 :Verify that Enrollment survey is completed and Reset Enrollment status</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
