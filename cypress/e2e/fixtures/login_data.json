@@ -1,0 +1,10 @@
+{
+    "Valid1":{
+        "plan_password": "01322710",
+        "ssn": "013227100"
+    },
+    "Valid2":{
+        "plan_password": "01322710",
+        "fresh_ssn": "000000062"
+    }
+}

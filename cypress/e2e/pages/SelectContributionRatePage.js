@@ -53,6 +53,9 @@ class SelectContributionRateLocator{
     estimated_tax_with_401k(){
         return cy.xpath("(//td[@class='pr15'])[8]");
     }
+    take_home_pay_with_401k(){
+        return cy.xpath("(//td[@class='pr15'])[10]");
+    }
     savings_text_link(){
         return cy.xpath("//div[contains(text(),'Savings')]");
     }

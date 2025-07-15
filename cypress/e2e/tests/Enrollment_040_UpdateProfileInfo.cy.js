@@ -1,19 +1,18 @@
 import PageObject from "../pageobject/PageObject";
-import * as url from '../../support/urls'
+const test_data=require("../fixtures/login_data.json");
 describe('UpdateProfile module test script for enrollment', () => {
     beforeEach(() => {
         cy.clearLocalStorage();
-        cy.login_by_plan_password_and_ssn("01322710","954682312");
+        cy.login_by_plan_password_and_ssn(test_data.Valid1.plan_password,test_data.Valid1.ssn);
+        cy.visit("http://bearypotter.julyservices.local:9030/register/auto-enrollment");
     });
     it('UPDT-INFO001:Verify Your Profile link text takes to Update Personal Information page', () => {
-        PageObject.registerObj.next_button_pro().click();
         PageObject.automaticenrollmentObj.customize_my_enrollment_button().click();
         PageObject.enrollhomeObj.user_login_dropdown_link().click();
         PageObject.enrollhomeObj.your_profile_link().click();
         PageObject.updateinfoObj.update_page_title_text().should('have.text','Update Personal Information');
     });
     it('UPDT-INFO002:Verify validation error for Update Personal Information page', () => {
-        PageObject.registerObj.next_button_pro().click();
         PageObject.automaticenrollmentObj.customize_my_enrollment_button().click();
         PageObject.enrollhomeObj.user_login_dropdown_link().click();
         PageObject.enrollhomeObj.your_profile_link().click();
@@ -34,7 +33,6 @@ describe('UpdateProfile module test script for enrollment', () => {
         PageObject.updateinfoObj.dob_error_message().should('have.text'," You are not eligible to enroll at this time due to the age requirement. Please contact Participant Services for more information at 888.333.6315, Option 1. ");
     });
     it('UPDT-INFO003:Verify Update functionality for Update Personal Information page', () => {
-        PageObject.registerObj.next_button_pro().click();
         PageObject.automaticenrollmentObj.customize_my_enrollment_button().click();
         PageObject.enrollhomeObj.user_login_dropdown_link().click();
         PageObject.enrollhomeObj.your_profile_link().click();

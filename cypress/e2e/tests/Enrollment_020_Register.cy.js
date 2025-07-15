@@ -1,9 +1,10 @@
+//after registration process working then we will start automation again
 import PageObject from "../pageobject/PageObject";
-import * as url from '../../support/urls'
+const test_data=require("../fixtures/login_data.json");
 describe('Register module test script for enrollment', () => {
     beforeEach(() => {
         cy.clearLocalStorage();
-        cy.login_by_plan_password_and_ssn("01322710","000000062");
+        cy.login_by_plan_password_and_ssn_register_test(test_data.Valid2.plan_password,test_data.Valid2.fresh_ssn);
     });
     it('EN-REG001:Verify validation error for Personal Information window', () => {
         PageObject.registerObj.first_name_text_field().clear();

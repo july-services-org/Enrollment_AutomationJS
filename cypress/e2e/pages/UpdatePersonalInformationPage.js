@@ -9,7 +9,7 @@ class UpdateInfoLocator{
         return cy.xpath("//input[@id='lastName']");
     }
     dob_text_field(){
-        return cy.xpath("//input[@id='mat-input-1']");
+        return cy.xpath("//input[@id='mat-input-0']");
     }
     mobile_phone_text_field(){
         return cy.xpath("//input[@id='mobilePhone']");

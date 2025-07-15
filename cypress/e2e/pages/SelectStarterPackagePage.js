@@ -16,7 +16,7 @@ class SelectStarterPackageLocator{
         return cy.xpath("//h4[normalize-space()='Best']");
     }
     fund_fact_sheet(){
-        return cy.xpath("//a[normalize-space()='Dimensional 2060 Target Dt Rtr Inc Instl']");
+        return cy.xpath("//a[normalize-space()='Dimensional 2035 Target Dt Rtr Inc Instl']");
     }
     change_to_roth_contribution_type_text(){
         return cy.xpath("//a[normalize-space()='Change to Roth Contribution Type']");
